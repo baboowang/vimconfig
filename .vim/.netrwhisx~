@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/baboo/Projects/ad/sites/adm.ggxt.net'
+let g:netrw_dirhist_2='/Users/baboo/Projects/ad/sites'
+let g:netrw_dirhist_3='/Users/baboo/Projects/ad/sites/adm.ggxt.net'
