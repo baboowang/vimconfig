@@ -1,2 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/baboo/Projects/ad/sites/box.hzeng.net'
+let g:netrw_dirhist_2='/Users/baboo/Projects/ad/sites/backend.hzeng.net'
+let g:netrw_dirhist_3='/Users/baboo/Projects/ad/sites/adm.ggxt.net'
+let g:netrw_dirhist_4='/Users/baboo/Projects/www.shhfp.cn/core/conf'
+let g:netrw_dirhist_5='/Users/baboo/Projects/www.shhfp.cn/core'
+let g:netrw_dirhist_6='/Users/baboo/Projects/www.shhfp.cn/site'

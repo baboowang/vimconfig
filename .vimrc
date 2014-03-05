@@ -73,7 +73,9 @@ set expandtab    "在输入 tab 后, vim 用恰当的空格来填充这个 tab.
 set history=300
 
 "GUI 设置
-set gfn=Monaco:h14
+"set gfn=Monaco:h18
+"set gfn=Source\ Code\ Pro\ for\ Powerline:h20
+set gfn=Monaco\ for\ Powerline:h18
 set go-=T
 "set mouse=a
 set clipboard+=unnamed
@@ -101,6 +103,7 @@ let Tlist_Exit_OnlyWindow = 1    "vim退出时taglist也退出
 :nmap <f6> :tabnext<CR>
 :nmap <leader>t :TlistToggle<CR>
 :nmap <leader>r :!clear && php <C-R>%<CR>
+:nmap <leader>b :ConqueTermSplit bash<CR>
 
 "NERD Tree
 let NERDChristmasTree=1
@@ -144,3 +147,9 @@ vmap <leader>y :w! ~/.vbuf<cr>
 nmap <leader>y :.w! ~/.vbuf<cr>  
 "paste the contents of the buffer file  
 nmap <leader>p :r ~/.vbuf<cr> 
+
+execute pathogen#infect()
+
+let g:airline_powerline_fonts=1
+set laststatus=2
+let g:airline_theme="base16"
