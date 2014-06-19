@@ -102,7 +102,6 @@ let Tlist_Exit_OnlyWindow = 1    "vim退出时taglist也退出
 :nmap <f5> :tabprevious<CR>
 :nmap <f6> :tabnext<CR>
 :nmap <leader>t :TlistToggle<CR>
-:nmap <leader>r :!clear && php <C-R>%<CR>
 :nmap <leader>b :ConqueTermSplit bash<CR>
 
 "NERD Tree

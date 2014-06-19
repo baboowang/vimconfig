@@ -1,0 +1,56 @@
+# controller
+snippet con
+	<?php
+	class ${1:Name} extends MY_Controller
+	{
+		public function __construct() 
+		{
+			parent::__construct();
+		}
+
+		public function index()
+		{
+			${2}
+		}
+	}
+# model
+snippet mod
+	<?php
+	class Model_${1:Tablename} extends Db_Model
+	{
+		public function __construct()
+		{
+			parent::__construct('${2:table}', '${3:clusterid}');
+		}
+	}
+
+# model2
+snippet modc
+	<?php
+	class Model_${1:Tablename} extends Model_Cacheable 
+	{
+		protected $MEMCACHE_CLUSTER_ID = Cache_Memcache::NULL_CLUSTER_ID;
+
+		public function __construct()
+		{
+			parent::__construct('${2:table}', '${3:clusterid}');
+		}
+
+		public static function get($ids, $useCache = TRUE)
+		{
+			return self::_get(__CLASS__, $ids, $useCache);
+		}
+	}
+
+snippet pub
+	public function ${1}(${2})
+	{
+		${3}	
+	}
+
+snippet pro
+	protected function ${1}(${2})
+	{
+		${3}
+	}
+

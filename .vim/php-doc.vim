@@ -78,9 +78,9 @@ let g:pdv_cfg_CommentSingle = "//"
 let g:pdv_cfg_Type = "mixed"
 let g:pdv_cfg_Package = ""
 let g:pdv_cfg_Version = "$id$"
-let g:pdv_cfg_Author = "Baboo <baboo.wg@gmail.com>"
-let g:pdv_cfg_Copyright = "2011-2013 The PHP Group"
-let g:pdv_cfg_License = "PHP Version 3.0 {@link http://www.php.net/license/3_0.txt}"
+let g:pdv_cfg_Author = "Baboo <wanggang@adeaz.com>"
+let g:pdv_cfg_Copyright = "2013-2014 ADEAZ.COM"
+let g:pdv_cfg_License = ""
 
 let g:pdv_cfg_ReturnVal = "void"
 
